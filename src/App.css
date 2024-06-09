@@ -1,0 +1,453 @@
+.cat-header {
+  background-color: #243654;
+  /* height: 430px; */
+
+}
+
+.cat-text-header {
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 23px;
+  padding-top: 10px;
+  margin-left: 17px;
+  cursor: pointer;
+}
+
+.cat-text-header:hover {
+  color: #07A7F1;
+}
+
+.cat-text {
+  color: white;
+  font-size: 22px;
+  padding-top: 10px;
+
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: white !important;
+}
+
+.accordion-button:focus {
+  border-color: white !important;
+}
+
+.get {
+  color: white;
+  margin-left: 0px;
+  background-color: #243654;
+  width: 150px;
+  height: 42px;
+  border-radius: 24px;
+  border: 2px solid #07A7F1;
+}
+
+.team {
+  color: lightgrey;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.start {
+  width: 160px;
+  height: 50p;
+  border-radius: 30px;
+  color: white;
+  margin-right: 50px;
+  border: none;
+  background-color: #07a7f1;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.my {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.about {
+  text-align: center;
+  font-size: 50px;
+  color: #012150;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.line {
+  width: 50px;
+  height: 2px;
+  background-color: lightgray;
+
+
+}
+
+.lineContainer div:nth-child(2) {
+  background-color: #07A7F1;
+}
+
+.text {
+  align-items: center;
+}
+
+.lorems {
+  font-size: 18px;
+  color: #796f6f;
+}
+
+.lorem {
+  font-size: 18px;
+  color: #796f6f;
+  margin-left: 10px;
+}
+
+.more {
+  width: 157px;
+  height: 48px;
+  color: #07A7F1;
+  border: 2px solid #0fa7f1;
+  padding: 10px 35px;
+  border-radius: 3px;
+  background-color: white;
+
+}
+
+.eum {
+  color: #012150;
+  font-weight: 300;
+  font-size: 22px;
+}
+
+.h {
+  font-size: 18px;
+  color: #8b8989;
+}
+
+.accordion {
+  width: 75%;
+  border: 0;
+}
+
+.subtle {
+  background-color: #F3F5F9;
+}
+
+.skills .prog-holder {
+  margin-bottom: 40px;
+}
+
+.skills .prog-holder h4 {
+  margin-bottom: 15px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.skills .prog-holder .prog {
+  background-color: #dedadc;
+  height: 10px;
+}
+
+.skills .prog-holder .prog span {
+  display: block;
+  background-color: #3E66A1;
+  height: 100%;
+  position: relative;
+}
+
+.skills .prog-holder .prog span::before {
+  content: attr(data-progress);
+  position: absolute;
+  /* background-color: black; */
+  color: #3E66A1;
+  top: -40px;
+  right: -18px;
+  padding: 4px 0;
+  width: 40px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.serv {
+  background-color: #F3F5F9;
+}
+
+.colr {
+  color: #012150;
+}
+
+.count1 {
+  width: 100%;
+}
+
+.count2 {
+  width: 90%;
+}
+
+.count3 {
+  width: 75%;
+}
+
+.count4 {
+  width: 55%;
+}
+
+.div {
+  height: 850px;
+  background-size: cover;
+  background-image: url(./image/testimonial.jpg);
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, .6);
+  z-index: 2;
+}
+
+.item {
+  width: 100px;
+  color: white;
+  background: #07A7F1;
+  border-radius: 22px;
+}
+
+.test {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  margin-top: 222px;
+  /* padding: 60px; */
+}
+
+.myl {
+  margin: 222px;
+}
+
+.img {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 40px;
+}
+
+.title {
+  color: #012150;
+
+}
+
+.lines {
+  background-color: #8297c4;
+  width: 55px;
+  height: 1px;
+  margin-bottom: 20px;
+}
+
+.rec {
+  background-color: #0DCAF0;
+  width: 100%;
+  height: 2px;
+}
+
+@media (max-width: 772px) {
+  .image {
+
+    text-align: center;
+    margin-left: 35px;
+  }
+}
+
+.pill {
+  width: 90px;
+  height: 45px;
+  background-color: #46B2E4;
+  border-radius: 21px;
+  padding: 6px;
+  color: white;
+}
+
+.but {
+  width: 150px;
+  padding: 8px;
+  border-radius: 31px;
+  background-color: #464544;
+  color: white;
+  margin-top: 70px;
+  border: 1px solid white;
+}
+
+@media (max-width: 992px) {
+  .home {
+    flex-direction: column;
+
+  }
+
+  .get {
+    width: 25%;
+    margin-top: 10px;
+  }
+
+  .log {
+    margin-bottom: 20px;
+  }
+}
+
+.a01 {
+  border-radius: 15px;
+}
+
+@media (max-width: 992px) {
+  .accordion {
+    width: 100%;
+  }
+
+  .a01 {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 772px) {
+  .a02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #F0F2F8;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bor {
+  border-top: 2px solid #07a7f1;
+}
+
+.bot {
+  border-top: 2px solid #07a7f1;
+  border-bottom: 2px solid #07a7f1;
+}
+
+.per {
+  color: #07a7f1;
+}
+
+.plan {
+  color: #012150;
+}
+
+.card-button {
+  height: 60px;
+  width: 200px;
+  border-radius: 28px;
+  border: 0;
+  background-color: #46B2E4;
+  color: white;
+
+}
+
+.blackCardButton {
+  background-color: white;
+  border: 2px solid #46B2E4;
+  color: #46B2E4;
+}
+
+.info {
+  color: #012150;
+}
+
+.control {
+  height: 50px;
+  width: 50%;
+  border-radius: 30px;
+  border: 0;
+}
+
+.put {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.footer {
+  background-color: white;
+}
+
+.arsha {
+  color: #012150;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.class {
+  background-color: #38517E;
+  height: 100px;
+}
+
+@media (max-width: 772px) {
+  .foot {
+    text-align: center;
+  }
+
+}
+
+.sub {
+  padding: 12px 26px;
+  border-radius: 26px;
+  background-color: #46B2E4;
+  border: 0;
+}
+
+
+
+@media (max-width: 772px) {
+  .sub {
+    width: 10%;
+  }
+
+}
+
+@media (max-width: 992px) {
+  .sub {
+    width: 75%;
+
+  }
+
+}
+
+.prim {
+  color: #0DCAF0;
+}
